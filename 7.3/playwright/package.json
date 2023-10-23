@@ -1,15 +1,27 @@
 {
   "name": "jsaqa_3_2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright"
+    "test": "playwright test"
   },
-  "author": "",
+  "author": "semenova",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.12.3",
-    "playwright": "^1.12.3"
-  }
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.6.1",
+    "playwright": "^1.39.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaS007/jsaqa-code.git#main"
+  },
+  "bugs": {
+    "url": "https://github.com/NataliaS007/jsaqa-code/issues"
+  },
+  "homepage": "https://github.com/NataliaS007/jsaqa-code/tree/main#readme",
+  "description": ""
 }
