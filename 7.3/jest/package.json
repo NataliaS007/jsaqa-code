@@ -4,16 +4,41 @@
   "description": "jest test",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "coverage": "jest --collectCoverage",
+    "eslint": "eslint",
+    "prettier": "prettier"
+  },
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/coverage/**"
+  ],
+  "coverageThreshold": {
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
   },
   "keywords": [
     "jest",
     "test",
     "jsaqa"
   ],
-  "author": "omelnikova",
+  "author": "semenova",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.3.1"
-  }
+    "jest": "^27.5.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaS007/jsaqa-code.git#main"
+  },
+  "bugs": {
+    "url": "https://github.com/NataliaS007/jsaqa-code/issues"
+  },
+  "homepage": "https://github.com/NataliaS007/jsaqa-code/tree/main#readme"
 }
