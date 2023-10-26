@@ -43,7 +43,7 @@ describe("Github page tests", () => {
     test("Should check Enterprise page", async () => {
       await page.goto("https://github.com/enterprise");
       const title = await page.title();
-      expect(title).toContain("Enterprise · A smarter way to work together · GitHub")
+      expect(title).toContain("The AI Powered Developer Platform.")
     }, 6000);
 
     test("Should check Features page", async () => {
