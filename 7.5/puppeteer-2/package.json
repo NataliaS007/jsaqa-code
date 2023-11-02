@@ -1,13 +1,12 @@
 {
   "name": "jsaqa_3_3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "cucumber": "cucumber-js"
   },
-  "author": "",
+  "author": "semenova",
   "license": "ISC",
   "dependencies": {
     "jest": "^27.3.1",
@@ -15,5 +14,17 @@
     "puppeteer": "^13.3.2",
     "chai": "^4.3.4",
     "cucumber": "^7.0.0-rc.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaS007/jsaqa-code.git#main"
+  },
+  "bugs": {
+    "url": "https://github.com/NataliaS007/jsaqa-code/issues"
+  },
+  "homepage": "https://github.com/NataliaS007/jsaqa-code/tree/main#readme",
+  "description": ""
 }
